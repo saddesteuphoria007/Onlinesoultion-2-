@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Admin Page"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/createCategoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appNameTextView"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Add New Item"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/add" />
+
+    <Button
+        android:id="@+id/VoiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appNameTextView"
+        android:layout_toEndOf="@id/createCategoryButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="View Orders"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/pending"/>
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createCategoryButton"
+        android:layout_toStartOf="@+id/VoiceButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="View Users"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/users" />
+
+    <Button
+        android:id="@+id/viewListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/VoiceButton"
+        android:layout_toEndOf="@id/addItemButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Order History"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/hist" />
+
+    <Button
+        android:id="@+id/takePhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Emails"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/baseline_email_24" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="40dp"
+        android:layout_below="@id/viewListButton"
+        android:layout_toEndOf="@id/addItemButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Log Out"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/baseline_logout_24" />
+
+</RelativeLayout>

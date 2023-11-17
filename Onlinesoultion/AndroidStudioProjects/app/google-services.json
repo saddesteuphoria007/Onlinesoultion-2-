@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "232753801487",
+    "project_id": "onlinenetworkedtuckshop",
+    "storage_bucket": "onlinenetworkedtuckshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232753801487:android:786cd9248f4816be6b767a",
+        "android_client_info": {
+          "package_name": "com.example.onlinenetworkedtuckshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232753801487-96aekneog7jhqgjgl0iqhsvb5c6fdno9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDo3VJbaSwaEGsFUF7sZmSc1KtuCF1tWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232753801487-96aekneog7jhqgjgl0iqhsvb5c6fdno9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232753801487:android:ce72f3f11f4f8eae6b767a",
+        "android_client_info": {
+          "package_name": "com.example.onlinesolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232753801487-96aekneog7jhqgjgl0iqhsvb5c6fdno9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDo3VJbaSwaEGsFUF7sZmSc1KtuCF1tWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232753801487-96aekneog7jhqgjgl0iqhsvb5c6fdno9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
